@@ -1,0 +1,33 @@
+1)
+insert into school (name, country, capacity)
+VALUES
+    ('Beauxbatons Academy of Magic', 'France', 550),
+    ('Castelobruxo', 'Brazil', 380),
+    ('Durmstrang Institute', 'Norway', 570),
+    ('Hogwarts School of Witchcraft and Wizardry', 'United Kingdom' ,450),
+    ('Ilvermorny School of Witchcraft and Wizardry', 'USA', 300),
+    ('Koldovstoretz', 'Russia', 125),
+    ('Mahoutokoro School of Magic', 'Japan', 800),
+    ('Uagadou School of Magic', 'Uganda', 350);
+
+2)
+update school set country = 'Sweden' where name = 'Durmstrang Institute' 
+
+3)
+update school set capacity = 700 where name = 'Mahoutokoro School of Magic';
+
+4)
+delete from school where name like '%Magic%';
+
+
+/*
+-- Query: SELECT * FROM wild_db_quest.school
+LIMIT 0, 1000
+
+-- Date: 2021-03-08 21:03
+*/
+INSERT INTO `` (`id`,`name`,`capacity`,`country`) VALUES (2,'Castelobruxo',380,'Brazil');
+INSERT INTO `` (`id`,`name`,`capacity`,`country`) VALUES (3,'Durmstrang Institute',570,'Sweden');
+INSERT INTO `` (`id`,`name`,`capacity`,`country`) VALUES (4,'Hogwarts School of Witchcraft and Wizardry',450,'United Kingdom');
+INSERT INTO `` (`id`,`name`,`capacity`,`country`) VALUES (5,'Ilvermorny School of Witchcraft and Wizardry',300,'USA');
+INSERT INTO `` (`id`,`name`,`capacity`,`country`) VALUES (6,'Koldovstoretz',125,'Russia');
